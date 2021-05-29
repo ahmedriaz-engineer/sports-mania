@@ -1,0 +1,36 @@
+.card{
+    background-color: white;
+    width: 300px;
+    padding: 20px;
+    border-radius: 20px;   
+}
+.image{
+    width: 100%;   
+}
+.icon{
+    margin-left: 10px ;
+}
+.home-cart{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #3f51b5;
+}
+header{
+    text-align: center;
+    height: 250px;
+    position: relative;
+}
+
+.header-image{
+    height: 250px;
+    width: 100%;
+    opacity: 0.5;
+}
+.heading{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #3f51b5;
+    font-size:50px;
+  }
